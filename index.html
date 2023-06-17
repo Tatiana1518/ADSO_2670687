@@ -2,7 +2,8 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Iniciando con GIT</title>
+        <title>Iniciando con GIT</title> 
+        <link rel="stylesheet" href="css/style.css">
     </head>
             <body>
 
@@ -13,12 +14,12 @@
                 <h5>Concepto de GIT</h5>
                 <h6>Concepto de GIT</h6>
 
-                <p>Git es una de las herramientas más indispensables para el desarrollo de proyectos, aunque un sistema de control de versiones sirva justamente para controlar los estados por los que ha pasado un código, lo cierto es que la herramienta git facilita mucho el desarrollo de los proyectos en equipo, así como otras operaciones relacionadas con el flujo de trabajo de los desarrolladores.</p>
+                <p class="p1">Git es una de las herramientas más indispensables para el desarrollo de proyectos, aunque un sistema de control de versiones sirva justamente para controlar los estados por los que ha pasado un código, lo cierto es que la herramienta git facilita mucho el desarrollo de los proyectos en equipo, así como otras operaciones relacionadas con el flujo de trabajo de los desarrolladores.</p>
 
-                <h2>PRICIPALES COMANDOS DE GIT</h2>
+                <h2 class="t2"> PRICIPALES COMANDOS DE GIT</h2>
                 <ul>
                     <li><strong>GIT INIT:</strong>Este comando funciona para inicializar un proyecto con GIT</li>
-                    <li><strong>GIT ADD:</strong>Este comando añade cambios de archivos en el directorio de ensayo</li>
+                    <li><strong>GIT ADD .:</strong>Este comando añade cambios de archivos en el directorio de ensayo</li>
                     <li><strong>GIT CONFIG --GLOBAL USER.NAME:</strong>Este comando establece valores de configuracion para saber el nombre del creador del repositorio. </li>
                     <li><strong>GIT CONFIG --GLOBAL USER.EMAIL:</strong>Este comando nos ayuda a saber el email del creador del repositorio.</li>
                     <li><strong>GIT CONFIG USER.NAME</strong>Este comando establece valores de configuracion para tu usuarios para digitar el nombre del creador del repositorio.</li>
@@ -83,7 +84,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <th>Criterios de aceptacion</th>
+                        <th>Criterios de aceptaciòn</th>
                         <td>
                             <ol>
                                 <li>Usuario, correo electronico, numero celular y otros datos necesarios.</li>
@@ -95,29 +96,29 @@
 
                 </table>
                 <h2>FORMULARIO EN HTML</h2> 
-                <form action="" method=""></form>
-                    <label for="">Digite nombre</label>
-                    <input type="text" name="nombre" id="nombre" placeholder="Escriba su nombre" required> <br> <br>
-                    <label for="Email">Email</label>
-                    <input type="Email" name="email" id="email" placeholder="Escriba su email" required=""> <br> <br>
-                    <label for="">Contraseña</label>
-                    <input type="password" name="Contraseña" id="Contraseña" placeholder="Escriba su contraseña" required=""> <br> <br>
-                    <label for="">Fecha de nacimiento</label>
-                    <input type="date" name="numero" id="numero" placeholder="Digite su fecha de nacimiento" required=""> <br> <br>
-                    <label for="">numero</label>
-                    <input type="number" name="Numero" id="Numero" placeholder="Digite un numero" required=""> <br> <br>
-                    <label for="">Baloncesto</label>
-                    <input type="checkbox" name="checkbox" id="checkbox" placeholder="" required=""> <br> <br>
-                    <label for="">Futbol</label>
-                    <input type="checkbox" name="checkbox" id="checkbox" placeholder="" required=""> <br> <br>
-                    <label for="">Voleibol</label>
-                    <input type="checkbox" name="checkbox" id="checkbox" placeholder="" required=""> <br> <br>
-                    <label for="">Masculino</label>
-                    <input type="radio" name="radio" id="radio" placeholder="" required=""> <br> <br>
-                    <label for="">Femenino</label>
-                    <input type="radio" name="radio" id="radio" placeholder="" required=""> <br> <br>
-                    <label for="">lista desplegable</label> <br> <br>
-                    <select>
+                    <form action="" method=""></form>
+                        <label for="">Digite nombre</label>
+                        <input type="text" name="nombre" id="nombre" placeholder="Escriba su nombre" required> <br> <br>
+                        <label for="Email">Email</label>
+                        <input type="Email" name="email" id="email" placeholder="Escriba su email" required=""> <br> <br>
+                        <label for="">Contraseña</label>
+                        <input type="password" name="Contraseña" id="Contraseña" placeholder="Escriba su contraseña" required=""> <br> <br>
+                        <label for="">Fecha de nacimiento</label>
+                        <input type="date" name="numero" id="numero" placeholder="Digite su fecha de nacimiento" required=""> <br> <br>
+                        <label for="">numero</label>
+                        <input type="number" name="Numero" id="Numero" placeholder="Digite un numero" required=""> <br> <br>
+                        <label for="">Baloncesto</label>
+                        <input type="checkbox" name="checkbox" id="checkbox" placeholder="" required=""> <br> <br>
+                        <label for="">Futbol</label>
+                        <input type="checkbox" name="checkbox" id="checkbox" placeholder="" required=""> <br> <br>
+                        <label for="">Voleibol</label>
+                        <input type="checkbox" name="checkbox" id="checkbox" placeholder="" required=""> <br> <br>
+                        <label for="">Masculino</label>
+                        <input type="radio" name="radio" id="radio" placeholder="" required=""> <br> <br>
+                        <label for="">Femenino</label>
+                        <input type="radio" name="radio" id="radio" placeholder="" required=""> <br> <br>
+                        <label for="">lista desplegable</label> <br> <br>
+                        <select>
                         
                         <option value="opcion 1">Pizza</option>
                         <option value="opcion 2">Salchipapa</option>
@@ -129,10 +130,14 @@
                         <option value="opcion 8">Sandwich</option>
                         <option value="opcion 9">Hojaldras</option>
                         <option value="opcion 10">Ningunog</option>
-                    </select> <br> <br>
-                    <label for="">cargar archivos</label> <br> <br>
-                    <input type="file" name="archivo" id="archivo" placeholder="file" required=""> <br> <br>
-                    <button value="registrar">Registrar</button>
+                        </select> <br> <br>
+                        <label for="">cargar archivos</label> <br> <br>
+                        <input type="file" name="archivo" id="archivo" placeholder="file" required=""> <br> <br>
+                        <button value="registrar">Registrar</button>
                     </form>
+                    <h2>ETIQUETA DE MULTIMEDIA</h2>
+                    <video src="videos/MELO.mp4" width="640px" height="480px" controls loop></video>
+                    <h3>AUDIO</h3>
+                    <audio src="audio/AUDIO.mp3" controls></audio>
             </body>
 </html>                          
