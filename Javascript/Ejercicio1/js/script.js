@@ -36,7 +36,7 @@ alert("la suma es: "+suma)
 const num1=8
 const num2=2
 const resta = num1-num2
-alert("la resta es:" +resta)
+alert("la resta es:" +resta bien)
 
 const num1=9
 const num2=5
