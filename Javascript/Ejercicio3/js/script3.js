@@ -19,20 +19,29 @@
  let bpa = parseInt(inv*mes);
  alert("lo que ganara al invertir es: "+bpa)*/
 
-/* Un alumno desea saber cuál será su calificación final en la materia de
+/* Ejercicio 3
+Un alumno desea saber cuál será su calificación final en la materia de
 Algoritmos. Dicha calificación se compone de los siguientes porcentajes:
 a. 55% del promedio de sus tres calificaciones parciales.
 b. 30% de la calificación del examen final.
-c. 15% de la calificación de un trabajo final.*/
+c. 15% de la calificación de un trabajo final.
 
 
-let examen_final = ("Ingresa el valor de examen final:");
-let cal1 = ("Ingresa el valor de la calificación 1:");
-let cal2 = ("Ingresa el valor de la calificación 2:");
-let cal3 = ("Ingresa el valor de la calificación 3:");
-let trabajo_final = ("Ingresa el valor de trabajo final:");
-let promecal = parseInt(cal1) + (cal2) + (cal3);
-let procal = parseInt(promecal/3)
-let cal_final = parseInt(procal*0.55+examen_final*0.3+trabajo_final*0.15);
-alert("Valor de la calificacion final: "*cal_final);
+let cal1 = prompt("Ingresa el valor de la calificación 1: ");
+let cal2 = prompt("Ingresa el valor de la calificación 2: ");
+let cal3 = prompt("Ingresa el valor de la calificación 3: ");
+let examen_final = prompt("Ingresa el valor de examen final: ");
+let trabajo_final = prompt("Ingresa el valor de trabajo final: ");
+let promecal = (cal1 + cal2 + cal3)/3;
+let cal_final = (promecal*.55) + (examen_final*.30) + (trabajo_final*.15);
+alert("Valor de la calificacion final: "+cal_final);*/
 
+/* Ejercicio 4
+El dueño de una tienda compra un artículo a 
+un precio determinado. Obtener el precio en que
+ lo debe vender para obtener una ganancia del 30%.*/
+
+ let precio_articulo = prompt ("Dar el precio del articulo: ");
+ let ganancia = 30/100;
+ let preciofinal = parseInt(precio_articulo*ganancia)
+ alert("El precio al que se debe vender el articulo es: "+preciofinal)
